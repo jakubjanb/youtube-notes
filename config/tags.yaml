@@ -1,0 +1,40 @@
+tag_rules:
+  style: lowercase-kebab-case
+  avoid:
+    - overly broad tags that duplicate domain names unless useful for filtering
+    - one-off tags that are unlikely to be reused
+    - synonyms for existing tags
+
+suggested_tags:
+  mathematics:
+    - linear-algebra
+    - calculus
+    - optimization
+    - differential-equations
+    - proof-techniques
+  physics:
+    - mechanics
+    - energy
+    - fields
+    - conservation-laws
+  statistics:
+    - inference
+    - estimation
+    - regression
+    - uncertainty
+  probability:
+    - bayes
+    - distributions
+    - expectation
+    - stochastic-processes
+  machine-learning:
+    - gradient-descent
+    - neural-networks
+    - loss-functions
+    - generalization
+  computer-science:
+    - algorithms
+    - data-structures
+    - complexity
+    - systems
+

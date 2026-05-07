@@ -1,0 +1,23 @@
+title: "Gradient Descent Intuition"
+slug: "gradient-descent-intuition"
+domain: "machine-learning"
+subdomain: "optimization"
+topics: [gradient descent, optimization, loss functions]
+tags: [gradient-descent, optimization, machine-learning]
+difficulty: "beginner"
+prerequisites: [functions, derivatives, vectors]
+source_type: youtube
+source_url: "https://www.youtube.com/watch?v=example"
+source_title: "Gradient Descent Intuition"
+source_channel: "Example Learning Channel"
+created_at: "2026-05-06"
+updated_at: "2026-05-06"
+status: "example"
+latex_file: note.tex
+pdf_file: note.pdf
+blueprint_file: blueprint.md
+transcript_file: transcript.md
+related_notes: []
+concepts: [gradient, loss function, learning rate]
+summary: "A short example showing how gradient descent uses local slope information to iteratively reduce a loss function."
+

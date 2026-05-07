@@ -1,0 +1,23 @@
+# Copy this file to notes/<domain>/<slug>/metadata.yaml.
+title: "{{title}}"
+slug: "{{slug}}"
+domain: "{{domain}}"
+subdomain: "{{subdomain}}"
+topics: []
+tags: []
+difficulty: "{{difficulty}}"
+prerequisites: []
+source_type: youtube
+source_url: "{{source_url}}"
+source_title: "{{source_title}}"
+source_channel: "{{source_channel}}"
+created_at: "{{created_at}}"          # YYYY-MM-DD
+updated_at: "{{created_at}}"          # YYYY-MM-DD
+status: "{{status}}"
+latex_file: note.tex
+pdf_file: note.pdf
+blueprint_file: blueprint.md
+transcript_file: transcript.md
+related_notes: []
+concepts: []
+summary: "{{summary}}"

@@ -1,0 +1,26 @@
+# Copy this file to sources/youtube/metadata/<slug>.yaml or inbox/metadata/<slug>.yaml.
+title: "{{title}}"
+youtube_url: "{{source_url}}"
+canonical_youtube_url: ""
+channel: "{{source_channel}}"
+video_id: ""
+published_at: ""
+duration: ""
+description: ""
+thumbnail_url: ""
+date_watched: "{{created_at}}"        # YYYY-MM-DD
+date_processed: "{{created_at}}"      # YYYY-MM-DD
+domain: "{{domain}}"                  # Use config/domains.yaml.
+subdomain: "{{subdomain}}"
+topics: []
+tags: []                # lowercase-kebab-case
+difficulty: "{{difficulty}}"          # beginner | intermediate | advanced | research
+prerequisites: []
+source_language: "en"
+target_note_language: "en"
+status: "captured"
+related_notes: []
+summary: ""
+notes:
+  capture_context: ""
+  processing_notes: ""

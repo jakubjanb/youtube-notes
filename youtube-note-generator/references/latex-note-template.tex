@@ -1,0 +1,125 @@
+% Generic educational note template for youtube_note_generator.
+% Adapt title, metadata, boxes, theorem environments, and packages to the blueprint.
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[colorlinks=true,linkcolor=MidnightBlue,citecolor=ForestGreen,urlcolor=RoyalBlue]{hyperref}
+\usepackage[nameinlink,capitalise]{cleveref}
+
+\setlist[itemize]{topsep=0.35em,itemsep=0.15em}
+\setlist[enumerate]{topsep=0.35em,itemsep=0.15em}
+\setlength{\parskip}{0.45em}
+\setlength{\parindent}{0pt}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{exercise}{Exercise}[section]
+
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{theorem}{Theorem}[section]
+
+\newtcolorbox{intuitionbox}{
+  colback=blue!3,
+  colframe=blue!45!black,
+  title=Intuition,
+  sharp corners,
+  boxrule=0.5pt
+}
+
+\newtcolorbox{warningbox}{
+  colback=orange!5,
+  colframe=orange!70!black,
+  title=Warning,
+  sharp corners,
+  boxrule=0.5pt
+}
+
+\newtcolorbox{resultbox}{
+  colback=green!4,
+  colframe=green!45!black,
+  title=Key result,
+  sharp corners,
+  boxrule=0.5pt
+}
+
+\newtcolorbox{summarybox}{
+  colback=gray!5,
+  colframe=gray!60!black,
+  title=Summary,
+  sharp corners,
+  boxrule=0.5pt
+}
+
+\title{[Title from blueprint]}
+\author{Educational note based on a YouTube transcript blueprint}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+[Brief summary of what the note teaches.]
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{[First section]}
+
+[Introduce motivation, prerequisites, and notation before using formulas.]
+
+\section{[Core development]}
+
+\begin{definition}[Key term]
+[Definition.]
+\end{definition}
+
+\begin{intuitionbox}
+[Intuition connecting the formal idea to the learner's mental model.]
+\end{intuitionbox}
+
+\subsection{Step-by-step derivation}
+
+State the goal before the equation block.
+\begin{align}
+  [starting point]
+    &= [intermediate step] \\
+    &= [next step] \\
+    &= [final result].
+\end{align}
+
+Explain the role of each transformation in prose.
+
+\begin{resultbox}
+[Final result and interpretation.]
+\end{resultbox}
+
+\section{Worked examples}
+
+\begin{example}[Example title]
+[Step-by-step solution.]
+\end{example}
+
+\section{Conclusion}
+
+[Synthesize the main result and what the learner should retain.]
+
+\end{document}

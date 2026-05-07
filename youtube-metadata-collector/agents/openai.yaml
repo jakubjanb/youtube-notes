@@ -1,0 +1,5 @@
+interface:
+  display_name: "youtube_metadata_collector"
+  short_description: "Create YouTube source metadata YAML files"
+  default_prompt: "Use $youtube-metadata-collector to create a youtube_notes source metadata YAML file for this YouTube URL."
+

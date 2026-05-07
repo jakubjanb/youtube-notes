@@ -1,0 +1,41 @@
+title: "Marden's Theorem"
+slug: "mardens-theorem"
+domain: "mathematics"
+subdomain: "complex-analysis"
+topics:
+  - "Marden's Theorem"
+  - "Steiner inellipse"
+  - "complex roots"
+  - "polynomial derivatives"
+  - "geometry of polynomials"
+tags:
+  - "complex-analysis"
+  - "mardens-theorem"
+  - "steiner-inellipse"
+  - "geometry"
+  - "polynomials"
+difficulty: "intermediate"
+prerequisites:
+  - "complex numbers"
+  - "polynomials"
+  - "Vieta's formulas"
+  - "ellipses"
+source_type: youtube
+source_url: "https://www.youtube.com/watch?v=yNpP11ffwVM"
+source_title: "The Biggest Coincidence In Math: Marden's Theorem"
+source_channel: "Quantia"
+created_at: "2026-05-06"
+updated_at: "2026-05-06"
+status: "note_generated"
+latex_file: note.tex
+pdf_file: note.pdf
+blueprint_file: blueprint.md
+transcript_file: transcript.md
+related_notes: []
+concepts:
+  - "Marden's theorem"
+  - "Steiner inellipse"
+  - "Gauss-Lucas theorem"
+  - "Vieta's formulas"
+  - "logarithmic derivative"
+summary: "An educational LaTeX note explaining Marden's theorem: for a cubic with non-collinear complex roots, the roots of the derivative are the foci of the Steiner inellipse of the root triangle."

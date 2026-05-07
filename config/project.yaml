@@ -1,0 +1,33 @@
+project:
+  name: youtube_notes
+  purpose: "Second brain for polished educational notes generated from YouTube transcripts."
+  default_source_type: youtube
+  default_note_language: en
+  repository_status: active
+
+paths:
+  inbox: inbox
+  sources: sources
+  blueprints: blueprints
+  notes: notes
+  latex_templates: latex/templates
+  knowledge_base: knowledge-base
+
+workflow:
+  metadata_collector_skill: youtube_metadata_collector
+  architect_skill: youtube_note_architect
+  generator_skill: youtube_note_generator
+  canonical_note_filename: note.tex
+  canonical_metadata_filename: metadata.yaml
+  canonical_blueprint_filename: blueprint.md
+  canonical_transcript_filename: transcript.md
+
+statuses:
+  - captured
+  - transcribed
+  - blueprint-drafted
+  - note-drafted
+  - needs-review
+  - reviewed
+  - published
+  - archived

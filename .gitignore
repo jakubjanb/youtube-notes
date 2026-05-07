@@ -1,0 +1,63 @@
+# macOS and editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.python-version
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+*.xmpi
+*.synctex(busy)
+
+# Build scratch space
+latex/builds/*
+!latex/builds/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Keep final PDFs by default.
+#!notes/**/*.pdf
+

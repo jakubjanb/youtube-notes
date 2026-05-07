@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+
+\input{../../latex/templates/preamble.tex}
+\input{../../latex/templates/macros.tex}
+\input{../../latex/templates/environments.tex}
+
+\title{Gradient Descent Intuition}
+\author{youtube\_notes}
+\date{2026-05-06}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This sample note shows how a short transcript excerpt becomes a structured educational LaTeX note.
+\end{abstract}
+
+\section{The Basic Picture}
+
+Suppose a model is controlled by parameters $\vectheta$ and we measure its error with a loss function $L(\vectheta)$. Gradient descent updates the parameters by repeatedly taking a step that tries to reduce the loss.
+
+\begin{intuitionbox}
+The gradient $\grad L(\vectheta)$ points in the direction of steepest local increase. To move downhill, use the opposite direction.
+\end{intuitionbox}
+
+\section{Update Rule}
+
+The gradient descent update is
+\begin{align}
+  \vectheta_{k+1} = \vectheta_k - \eta \grad L(\vectheta_k),
+  \label{eq:gradient-descent-update}
+\end{align}
+where $\eta > 0$ is the learning rate.
+
+\begin{definitionbox}[title=Learning Rate]
+The learning rate $\eta$ controls the size of each step. It is not learned by the basic algorithm; it is chosen as a configuration parameter.
+\end{definitionbox}
+
+\section{A One-Dimensional Example}
+
+Let $L(\theta) = \theta^2$. Then $L'(\theta)=2\theta$, so the update becomes
+\begin{align}
+  \theta_{k+1} = \theta_k - 2\eta\theta_k = (1 - 2\eta)\theta_k.
+\end{align}
+
+\begin{examplebox}
+If $\eta = 0.1$ and $\theta_0 = 10$, then $\theta_1 = 8$, $\theta_2 = 6.4$, and the iterates move toward the minimizer $\theta=0$.
+\end{examplebox}
+
+\begin{warningbox}
+A learning rate that is too large can overshoot the minimum and may even make the iterates diverge.
+\end{warningbox}
+
+\begin{resultbox}
+Gradient descent is local: each step uses slope information at the current point, not a global map of the whole loss surface.
+\end{resultbox}
+
+\end{document}
+

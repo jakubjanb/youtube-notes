@@ -1,0 +1,32 @@
+domains:
+  mathematics:
+    label: Mathematics
+    examples: [linear algebra, calculus, analysis, algebra, geometry, topology]
+  physics:
+    label: Physics
+    examples: [mechanics, electromagnetism, thermodynamics, quantum mechanics]
+  statistics:
+    label: Statistics
+    examples: [estimation, hypothesis testing, regression, inference]
+  probability:
+    label: Probability
+    examples: [random variables, distributions, stochastic processes]
+  data-science:
+    label: Data Science
+    examples: [data cleaning, visualization, experimentation, analytics]
+  machine-learning:
+    label: Machine Learning
+    examples: [optimization, supervised learning, unsupervised learning]
+  artificial-intelligence:
+    label: Artificial Intelligence
+    examples: [agents, planning, reasoning, language models]
+  computer-science:
+    label: Computer Science
+    examples: [algorithms, data structures, systems, theory]
+  quantitative-finance:
+    label: Quantitative Finance
+    examples: [portfolio theory, derivatives, risk, time series]
+  other:
+    label: Other
+    examples: [interdisciplinary, uncategorized, emerging topics]
+

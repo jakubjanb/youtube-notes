@@ -1,0 +1,66 @@
+% Shared preamble for youtube_notes educational LaTeX notes.
+% Intended for LuaLaTeX.
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+\pgfplotsset{compat=1.18}
+\tcbuselibrary{breakable,skins}
+
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+\setmonofont{Latin Modern Mono}
+
+\definecolor{ynBlue}{HTML}{1F4E79}
+\definecolor{ynTeal}{HTML}{1B7F79}
+\definecolor{ynGreen}{HTML}{2F7D32}
+\definecolor{ynAmber}{HTML}{B86E00}
+\definecolor{ynRed}{HTML}{A83232}
+\definecolor{ynGray}{HTML}{F4F6F8}
+\definecolor{ynInk}{HTML}{1F2933}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=ynBlue,
+  citecolor=ynTeal,
+  urlcolor=ynBlue,
+  pdftitle={YouTube Note},
+  pdfauthor={youtube_notes}
+}
+
+\setlist[itemize]{leftmargin=*,itemsep=0.2em,topsep=0.3em}
+\setlist[enumerate]{leftmargin=*,itemsep=0.2em,topsep=0.3em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.65em}
+
+\numberwithin{equation}{section}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+

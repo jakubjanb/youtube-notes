@@ -1,0 +1,4 @@
+interface:
+  display_name: "youtube_note_architect"
+  short_description: "Architect LaTeX notes from transcripts"
+  default_prompt: "Use $youtube-note-architect to turn this YouTube transcript into a rigorous step-by-step LaTeX note blueprint."

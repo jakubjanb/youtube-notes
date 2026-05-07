@@ -1,0 +1,4 @@
+interface:
+  display_name: "youtube_note_generator"
+  short_description: "Generate polished LaTeX notes from blueprints"
+  default_prompt: "Use $youtube-note-generator to turn this youtube_note_architect blueprint into a complete polished LaTeX note."

@@ -1,0 +1,16 @@
+latex:
+  engine: lualatex
+  build_tool_preference:
+    - latexmk
+    - lualatex
+  main_filename: note.tex
+  keep_pdf: true
+  clean_auxiliary_files: true
+
+style:
+  paper_size: a4paper
+  font_strategy: modern-lualatex-default
+  theorem_numbering: section
+  hyperlink_color: blue
+  figure_folder: figures/exported
+

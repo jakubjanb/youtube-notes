@@ -1,0 +1,71 @@
+\documentclass[11pt]{article}
+
+% For notes stored at notes/<domain>/<slug>/note.tex.
+\input{../../../latex/templates/preamble.tex}
+\input{../../../latex/templates/macros.tex}
+\input{../../../latex/templates/environments.tex}
+
+\title{ {{title}} }
+\author{youtube\_notes}
+\date{ {{created_at}} }
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+{{summary}}
+\end{abstract}
+
+\tableofcontents
+
+\section{Motivation}
+
+State the problem, the core question, and why the idea matters.
+
+\begin{intuitionbox}
+Use this box for the first mental model: what should the reader picture before seeing formal notation?
+\end{intuitionbox}
+
+\section{Setup}
+
+Define objects, assumptions, notation, and prerequisites.
+
+\begin{definitionbox}[title=Core Definition]
+Write the central definition here.
+\end{definitionbox}
+
+\section{Main Idea}
+
+Develop the concept step by step. Prefer short explanatory paragraphs between equations.
+
+\begin{align}
+  \text{quantity} &= \text{known part} + \text{new part}.
+\end{align}
+
+\begin{resultbox}
+State the main takeaway in a compact form.
+\end{resultbox}
+
+\section{Worked Example}
+
+\begin{examplebox}
+Work through a concrete example with all important steps shown.
+\end{examplebox}
+
+\section{Checks And Common Pitfalls}
+
+\begin{checkpointbox}
+List sanity checks, units, limiting cases, or alternate derivations.
+\end{checkpointbox}
+
+\begin{warningbox}
+Name a common misconception and explain how to avoid it.
+\end{warningbox}
+
+\section{Connections}
+
+Link prerequisites, related notes, and follow-up topics.
+
+\end{document}
+

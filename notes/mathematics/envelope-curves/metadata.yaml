@@ -1,0 +1,41 @@
+title: "Envelope Curves"
+slug: "envelope-curves"
+domain: "mathematics"
+subdomain: "geometry"
+topics:
+  - "envelopes"
+  - "caustics"
+  - "quadratic Bezier curves"
+  - "families of curves"
+  - "geometric optics"
+tags:
+  - "mathematics"
+  - "geometry"
+  - "envelopes"
+  - "caustics"
+  - "parametric-curves"
+difficulty: "intermediate"
+prerequisites:
+  - "basic calculus"
+  - "coordinate geometry"
+  - "parametric curves"
+  - "vectors in the plane"
+source_type: youtube
+source_url: "https://www.youtube.com/watch?v=fJWnA4j0_ho"
+source_title: "That weird light at the bottom of a mug — ENVELOPES"
+source_channel: "Paralogical"
+created_at: "2026-05-06"
+updated_at: "2026-05-06"
+status: "note_generated"
+latex_file: note.tex
+pdf_file: note.pdf
+blueprint_file: blueprint.md
+transcript_file: transcript.md
+related_notes: []
+concepts:
+  - "envelope of a family of curves"
+  - "partial derivative envelope condition"
+  - "quadratic Bezier curve"
+  - "caustic"
+  - "specular reflection"
+summary: "A polished educational note explaining how envelope curves arise from families of lines and reflected rays, with derivations for the envelope condition, a parabola from tangent lines, the string-art quadratic Bezier curve, and an idealized coffee-cup caustic."
